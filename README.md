@@ -7,4 +7,5 @@ Drag alt-crouch in your resource folder and add add 'altv-crouch' to your resour
 
 # Information 
 Key : W (editable)
-Inspired by : (FiveM Crouch n prone)[]
+Inspired by : [crouch-n-prone](https://github.com/Blumlaut/crouch-n-prone)
+
