@@ -28,16 +28,12 @@ alt.on('keydown', (key) => {
     }
 });
 
-alt.onServer('crouch::playerEnteredVehicle', () => {
-    crouch = false; 
-})
-
 alt.setInterval(() => {
     if(crouch){
         native.setPedMovementClipset(player.scriptID, "move_ped_crouched", 0.25);
         native.disableControlAction(0,22,true); //Jump
         native.setPedUsingActionMode(player.scriptID, false, -1, 'DEFAULT_ACTION');
-        
+
         if(native.isAimCamActive()){
             native.setPedStrafeClipset(player.scriptID, "move_ped_crouched_strafing");
             native.setPedUsingActionMode(player.scriptID, false, -1, 'DEFAULT_ACTION');
