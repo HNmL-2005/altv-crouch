@@ -1,3 +1,5 @@
+/// <reference types="@altv/types-client" />
+/// <reference types="@altv/types-natives" />
 import * as alt from 'alt-client';
 import * as native from 'natives'; 
 
@@ -42,4 +44,4 @@ alt.setInterval(() => {
         native.resetPedMovementClipset(player.scriptID, 0);
         native.resetPedStrafeClipset(player.scriptID, 0);
     }
-}, 100)
+}, 10)
