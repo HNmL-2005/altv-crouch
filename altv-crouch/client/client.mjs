@@ -44,4 +44,4 @@ alt.setInterval(() => {
         native.resetPedMovementClipset(player.scriptID, 0);
         native.resetPedStrafeClipset(player.scriptID, 0);
     }
-}, 10)
+}, 100) 
